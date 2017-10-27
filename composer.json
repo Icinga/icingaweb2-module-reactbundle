@@ -1,0 +1,30 @@
+{
+    "name": "Icinga/ipl-3rdparty",
+    "type": "library",
+    "description": "ipl 3rd party PHP libraries",
+    "homepage": "https://github.com/Icinga/libipl-3rdparty",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Icinga/libipl-3rdparty/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+	"ext-curl": "*",
+	"psr/http-message": "^1",
+        "predis/predis": "^1.1",
+        "react/child-process": "^0.5",
+        "react/dns": "^0.4",
+        "react/datagram": "^1",
+        "react/http": "^0.7",
+        "react/http-client": "^0.5",
+        "react/stream": "^0.7",
+        "react/socket": "^0.8",
+	"clue/redis-react": "^2",
+        "guzzlehttp/guzzle": "^5",
+        "clue/socks-react": "^0.8",
+        "clue/http-proxy-react": "^1.2",
+        "clue/connection-manager-extra": "^1.1"
+    },
+    "require-dev": {
+    }
+}
