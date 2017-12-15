@@ -24,7 +24,8 @@
         "clue/socks-react": "^0.8",
         "clue/http-proxy-react": "^1.2",
         "clue/connection-manager-extra": "^1.1",
-        "evenement/evenement": "^2"
+        "evenement/evenement": "^2",
+        "mkraemer/react-pcntl": "^3.0"
     },
     "require-dev": {
     }
