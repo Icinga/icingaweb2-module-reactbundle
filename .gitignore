@@ -1,2 +1,4 @@
+.idea
+.*.sw[op]
 composer.lock
 vendor
