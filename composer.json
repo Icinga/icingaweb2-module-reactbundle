@@ -1,14 +1,14 @@
 {
-    "name": "Icinga/ipl-3rdparty",
+    "name": "icinga/reactbundle",
     "type": "library",
-    "description": "ipl 3rd party PHP libraries",
-    "homepage": "https://github.com/Icinga/libipl-3rdparty",
+    "description": "Icinga Web 2 - ReactPHP-based 3rd party libraries",
+    "homepage": "https://github.com/Icinga/icingaweb2-module-reactbundle",
     "license": "MIT",
     "config": {
         "sort-packages": true
     },
     "support": {
-        "issues": "https://github.com/Icinga/libipl-3rdparty/issues"
+        "issues": "https://github.com/Icinga/icingaweb2-module-reactbundle/issues"
     },
     "require": {
         "php": ">=5.4.0",
