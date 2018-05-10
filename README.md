@@ -8,7 +8,7 @@ release and install it like any other module.
 ```sh
 RELEASES="https://github.com/Icinga/icingaweb2-module-reactbundle/archive" \
 && MODULES_PATH="/usr/share/icingaweb2/modules" \
-&& MODULE_VERSION=0.2.0 \
+&& MODULE_VERSION=0.3.1 \
 && mkdir "$MODULES_PATH" \
 && wget -q $RELEASES/v${MODULE_VERSION}.tar.gz -O - \
    | tar xfz - -C "$MODULES_PATH" --strip-components 1
@@ -28,4 +28,4 @@ Create a new release
 
 e.g.
 
-    ./bin/make-release.sh 0.2.0
+    ./bin/make-release.sh 0.3.1
