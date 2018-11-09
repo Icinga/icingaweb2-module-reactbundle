@@ -29,6 +29,8 @@ find vendor/ -type f -name "*.php" \
  | grep -v '/test/' \
  | xargs -l git add -f
 find vendor/ -type f -name LICENSE | xargs -l git add -f
+sed -i '' "s/^Version:.*/Version: v$VERSION/" module.info
+git add module.info
 git commit -m "Version v$VERSION"
 
 rm -f composer.lock
