@@ -28,7 +28,7 @@ REPO="https://github.com/Icinga/icingaweb2-module-reactbundle" \
 && MODULES_PATH="/usr/share/icingaweb2/modules" \
 && MODULE_VERSION=0.4.1 \
 && mkdir -p "$MODULES_PATH" \
-&& git clone ${REPO} "${MODULES_PATH}/reactbundle"
+&& git clone ${REPO} "${MODULES_PATH}/reactbundle" --branch v${MODULE_VERSION}
 icingacli module enable reactbundle
 ```
 
