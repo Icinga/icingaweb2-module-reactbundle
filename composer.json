@@ -13,7 +13,6 @@
     "require": {
         "php": ">=5.4.0",
         "ext-curl": "*",
-        "chrisboulton/php-resque": "^1.2",
         "clue/block-react": "^1.2",
         "clue/buzz-react": "^2.3",
         "clue/connection-manager-extra": "^1.1",
