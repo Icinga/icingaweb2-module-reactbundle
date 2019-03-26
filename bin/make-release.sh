@@ -2,7 +2,7 @@
 
 VERSION="$1"
 
-if [ -z $VERSION ]; then
+if [[ -z $VERSION ]]; then
   echo "USAGE: $0 <version>"
   echo " e.g.: $0 0.1.0"
   exit 1
@@ -10,7 +10,7 @@ fi
 
 TAG=$(git tag | grep -c "$VERSION")
 
-if [ "$TAG" -ne "0" ]; then
+if [[ "$TAG" -ne "0" ]]; then
   echo -n "Version $VERSION has already been tagged: "
   git tag | grep "$VERSION"
   exit 1
