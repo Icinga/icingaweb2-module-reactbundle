@@ -15,7 +15,7 @@ Sample Tarball installation
 MODULE_NAME=reactbundle
 MODULE_VERSION=v0.5.0
 MODULES_PATH="/usr/share/icingaweb2/modules"
-MODULE_PATH="${MODULES_PATH}/${MODULE_PATH}"
+MODULE_PATH="${MODULES_PATH}/${MODULE_NAME}"
 RELEASES="https://github.com/Icinga/icingaweb2-module-${MODULE_NAME}/archive"
 mkdir "$MODULE_PATH" \
 && wget -q $RELEASES/${MODULE_VERSION}.tar.gz -O - \
