@@ -28,6 +28,7 @@
         "evenement/evenement": "^2",
         "predis/predis": "^1.1",
         "psr/http-message": "^1",
+        "ramsey/uuid": "^3.8",
         "react/child-process": "^0.6",
         "react/datagram": "^1.4",
         "react/dns": "^0.4",
