@@ -6,14 +6,14 @@ for asynchronous PHP-based Icinga Web 2 modules. Please download the latest
 release and install it like any other module.
 
 > **HINT**: Do NOT install the GIT master, it will not work! Checking out a
-> branch like `stable/0.5.0` or a tag like `v0.5.0` is fine.
+> branch like `stable/0.6.0` or a tag like `v0.6.0` is fine.
 
 Sample Tarball installation
 ---------------------------
 
 ```sh
 MODULE_NAME=reactbundle
-MODULE_VERSION=v0.5.0
+MODULE_VERSION=v0.6.0
 MODULES_PATH="/usr/share/icingaweb2/modules"
 MODULE_PATH="${MODULES_PATH}/${MODULE_NAME}"
 RELEASES="https://github.com/Icinga/icingaweb2-module-${MODULE_NAME}/archive"
@@ -28,7 +28,7 @@ Sample GIT installation
 
 ```sh
 MODULE_NAME=reactbundle
-MODULE_VERSION=v0.5.0
+MODULE_VERSION=v0.6.0
 REPO="https://github.com/Icinga/icingaweb2-module-${MODULE_NAME}"
 MODULES_PATH="/usr/share/icingaweb2/modules"
 git clone ${REPO} "${MODULES_PATH}/${MODULE_NAME}" --branch "${MODULE_VERSION}"
@@ -48,4 +48,4 @@ Developer Documentation
 
 e.g.
 
-    ./bin/make-release.sh 0.5.0
+    ./bin/make-release.sh 0.6.0
