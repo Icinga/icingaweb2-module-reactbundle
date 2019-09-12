@@ -25,6 +25,7 @@
         "clue/soap-react": "^1.0",
         "clue/socket-raw": "^1.4",
         "clue/socks-react": "^1.0",
+        "clue/stdio-react": "^2.3",
         "evenement/evenement": "^2",
         "predis/predis": "^1.1",
         "psr/http-message": "^1",
@@ -37,7 +38,7 @@
         "react/http-client": "^0.5",
         "react/promise": "^2.7",
         "react/promise-timer": "^1.5",
-        "react/socket": "^1.2",
+        "react/socket": ">=1.2.1",
         "react/stream": "^1.1"
     },
     "require-dev": {
