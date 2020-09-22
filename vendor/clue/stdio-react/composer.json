@@ -1,0 +1,34 @@
+{
+    "name": "clue/stdio-react",
+    "description": "Async, event-driven console input & output (STDIN, STDOUT) for truly interactive CLI applications, built on top of ReactPHP",
+    "keywords": ["stdio", "stdin", "stdout", "interactive", "CLI", "readline", "autocomplete", "autocompletion", "history", "ReactPHP", "async"],
+    "homepage": "https://github.com/clue/reactphp-stdio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@lueck.tv"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "clue/term-react": "^1.0 || ^0.1.1",
+        "clue/utf8-react": "^1.0 || ^0.1",
+        "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
+        "react/stream": "^1.0 || ^0.7 || ^0.6"
+    },
+    "suggest": {
+        "ext-mbstring": "Using ext-mbstring should provide slightly better performance for handling I/O"
+    },
+    "autoload": {
+        "psr-4": { "Clue\\React\\Stdio\\": "src/" }
+    },
+    "require-dev": {
+        "clue/arguments": "^2.0",
+        "clue/commander": "^1.2",
+        "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
