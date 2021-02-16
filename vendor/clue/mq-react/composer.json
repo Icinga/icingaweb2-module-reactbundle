@@ -1,0 +1,29 @@
+{
+    "name": "clue/mq-react",
+    "description": "Mini Queue, the lightweight in-memory message queue to concurrently do many (but not too many) things at once, built on top of ReactPHP",
+    "keywords": ["Message Queue", "Mini Queue", "job", "message", "worker", "queue", "rate limit", "throttle", "concurrency", "ReactPHP", "async"],
+    "homepage": "https://github.com/clue/reactphp-mq",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@clue.engineering"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Clue\\React\\Mq\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Clue\\Tests\\React\\Mq\\": "tests/" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "react/promise": "^2.2.1 || ^1.2.1"
+    },
+    "require-dev": {
+        "clue/block-react": "^1.0",
+        "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35",
+        "react/event-loop": "^1.0 || ^0.5",
+        "react/http": "^1.0"
+    }
+}

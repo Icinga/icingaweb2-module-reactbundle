@@ -1,5 +1,6 @@
 {
     "name": "icinga/reactbundle",
+    "version": "0.9.0",
     "type": "library",
     "description": "Icinga Web 2 - ReactPHP-based 3rd party libraries",
     "homepage": "https://github.com/Icinga/icingaweb2-module-reactbundle",

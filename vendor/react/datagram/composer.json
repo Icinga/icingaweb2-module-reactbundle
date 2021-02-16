@@ -1,0 +1,50 @@
+{
+    "name": "react/datagram",
+    "description": "Event-driven UDP datagram socket client and server for ReactPHP",
+    "keywords": ["udp", "datagram", "dgram", "socket", "client", "server", "ReactPHP", "async"],
+    "homepage": "https://github.com/reactphp/datagram",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "homepage": "https://clue.engineering/",
+            "email": "christian@clue.engineering"
+        },
+        {
+            "name": "Cees-Jan Kiewiet",
+            "homepage": "https://wyrihaximus.net/",
+            "email": "reactphp@ceesjankiewiet.nl"
+        },
+        {
+            "name": "Jan Sorgalla",
+            "homepage": "https://sorgalla.com/",
+            "email": "jsorgalla@gmail.com"
+        },
+        {
+            "name": "Chris Boden",
+            "homepage": "https://cboden.dev/",
+            "email": "cboden@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "React\\Datagram\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "React\\Tests\\Datagram\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.3",
+        "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+        "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
+        "react/dns": "^1.1",
+        "react/promise": "~2.1|~1.2"
+    },
+    "require-dev": {
+        "clue/block-react": "~1.0",
+        "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.35"
+    }
+}
